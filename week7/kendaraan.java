@@ -10,7 +10,6 @@ public class kendaraan {
         warna = wn;
         bahanBakar = bb;
         kapasitasMuatan = km;
-        System.out.println("Kendaraan Triggered");
     }
     public void inpo(){
         System.out.println("Infokan warna = "+warna);

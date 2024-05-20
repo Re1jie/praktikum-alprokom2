@@ -6,7 +6,6 @@ public class sepeda_motor extends kendaraan_darat {
     public sepeda_motor(String wn, String bb, int km, int rd, String mk) {
         super(wn, bb, km, rd);
         merk = mk;
-        System.out.println("Sepeda Motor Triggered");
     }   
     
     @Override

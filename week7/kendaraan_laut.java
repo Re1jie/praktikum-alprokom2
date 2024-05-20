@@ -6,7 +6,6 @@ public class kendaraan_laut extends kendaraan{
     public kendaraan_laut(String wn, String bb, int km, String jj) {
         super(wn, bb, km);
         jenisjangkar = jj;
-        System.out.println("Kendaraan_Laut Triggered");
     }
 
     @Override

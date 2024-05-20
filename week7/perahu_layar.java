@@ -6,7 +6,6 @@ public class perahu_layar extends kendaraan_laut{
     perahu_layar(String wn, String bb, int km, String jj, int jl) {
         super(wn, bb, km, jj);
         jumlahlayar = jl;
-        System.out.println("Perahu_Layar Triggered");
     }
 
     @Override
