@@ -1,6 +1,6 @@
 package week1;
 import java.util.Scanner;
-public class TugasPraktikumNo1 {
+public class nomor1 {
     public static int fibMethod(int suku){
         if(suku == 0 || suku == 1){
             return 1;
