@@ -16,7 +16,6 @@ public class pesawat extends kendaraan {
         this.jenis=jenis;
     }
     
-    @Override
     public void informasi(){
         System.out.println("Nama pesawat adalah "+nama);
         System.out.println("Jenis pesawat adalah "+jenis);
