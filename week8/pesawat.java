@@ -10,12 +10,13 @@ public class pesawat extends kendaraan {
         jenis="belum teridentifikasi";
     }
 
-    public pesawat(String mode1, String jenis) {
+    public pesawat(String nama, String jenis) {
         super("Pesawat");
         this.nama=nama;
         this.jenis=jenis;
     }
     
+    @Override
     public void informasi(){
         System.out.println("Nama pesawat adalah "+nama);
         System.out.println("Jenis pesawat adalah "+jenis);
